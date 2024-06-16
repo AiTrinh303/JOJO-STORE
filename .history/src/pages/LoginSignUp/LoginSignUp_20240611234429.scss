@@ -1,0 +1,39 @@
+section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 3.6rem;
+  }
+  
+  input {
+    min-width: 15rem;
+    padding: 0.5rem;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+  }
+  
+  input:nth-child(3) {
+    
+    background-color: #2a6aa5;
+    border: 1px solid transparent;
+  }
+  
+  input:nth-child(3):hover {
+    color: #2a6aa5;
+    border: 1px solid #2a6aa5;
+    background-color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,58 @@
+.wishlist {
+    margin: 100px 170px;
+    
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+  
+    .format-main {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+      align-items: center;
+      gap: 75px;
+      padding: 20px 0px;
+      color: #454545;
+      font-size: 18px;
+      font-weight: 600;
+  
+  
+      hr {
+        height: 3px;
+        background: #e2e2e2;
+        border: none;
+      }
+  
+      .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+        border-bottom: 1px solid #e2e2e2;
+  
+        img {
+          height:px;
+          width: 100px;
+          padding-right: 250px;
+          
+        }
+        .title {
+          min-width: 500px;
+          padding-right: 50px;
+        } 
+        .remove-icon {
+          width: 15px;
+          margin: 0px 40px;
+          cursor: pointer;
+        }
+      }    
+        
+    }
+  
+  
+   }
+  
+  
+    
+  

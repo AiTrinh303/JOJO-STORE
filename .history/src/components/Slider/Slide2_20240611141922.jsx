@@ -1,0 +1,28 @@
+import hand_icon from '../../assets/hand_icon.png';
+
+const Slide2 = ({ image }) => {
+  return (
+<div class="slide relative flex flex-col justify-center items-center">
+  <img src={sliderImgs[0]} alt="" class="w-full h-auto max-h-full object-cover" />
+  <div class="slide1 absolute top-48 left-5 text-gray-700 font-bold text-start bg-transparent py-5 px-10 rounded-2xl">
+    <h2 class="text-black text-2xl font-semibold">NEW ARRIVALS ONLY</h2>
+    <div class="flex items-center gap-5">
+      <div class="flex items-center gap-3">
+        <p class="text-5xl font-bold text-black">New</p>
+        <img src={hand_icon} alt="hand" class="w-24" />
+      </div>
+      <p class="text-5xl font-bold text-black">collections</p>
+      <p class="text-5xl font-bold text-black">for everyone</p>
+    </div>
+    <button class="hero-latest-btn flex justify-center items-center gap-3 w-48 h-12 rounded-full mt-8 bg-blue-500 text-white text-lg font-semibold">
+      <div>Shop now</div>
+    </button>
+  </div>
+</div>
+  );
+};
+
+export default Slide2;
+
+
+

@@ -1,0 +1,17 @@
+import React from 'react';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import 'tailwindcss/tailwind.css';
+
+const Breadcrum = (props) => {
+  const { product } = props;
+  return (
+    <div className="flex items-center gap-2 text-gray-600 text-lg font-semibold my-15 mx-[170px] capitalize">
+      HOME <NavigateNextIcon />
+      SHOP <NavigateNextIcon />
+      {product.category} <NavigateNextIcon />
+      {product.name}
+    </div>
+  );
+}
+
+export default Breadcrum;
