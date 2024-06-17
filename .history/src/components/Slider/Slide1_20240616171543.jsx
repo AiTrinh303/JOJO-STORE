@@ -90,8 +90,8 @@ const Slide1 = ({ image }) => {
   };
 
   return (
-    <div className="box-border w-full flex-shrink-0 relative">
-      <img src={image} alt="" className="object-cover w-full h-auto max-h-full overflow-hidden " />
+    <div className="w-full flex-shrink-0 relative">
+      <img src={image} alt="" className="object-cover .max-w-full h-auto max-h-full overflow-hidden" />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white bg-black bg-opacity-5">
         <div className="absolute top-24 text-start bg-transparent p-2.5">
           <p className="mt-12 text-gray-900 text-3xl font-medium md:text-4xl lg:text-5xl">SEASON SALE</p>
