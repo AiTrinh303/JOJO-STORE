@@ -62,7 +62,7 @@ const Navbar = () => {
             <h1 className="text-blue-500 font-bold text-3xl md:text-4xl lg:text-5xl flex items-center ">
               <span className="p-1 bg-gradient-to-r from-green-400 via-blue-700 to-red-400 bg-clip-text text-transparent">JO</span>
               <span className="p-1 bg-gradient-to-r from-green-400 via-blue-700 to-red-400 bg-clip-text text-transparent">JO</span>
-              <span className="p-1 ">STORE</span>
+              <span className="p-1hover:shadow-innerTORE</span>
             </h1>
           </Link>
         </div>

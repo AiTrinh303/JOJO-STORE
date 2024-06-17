@@ -24,7 +24,7 @@ const SpinWheelButton = () => {
             cursor: 'pointer',
             zIndex: 1000,
           }}
-          className='animate-spin'
+          className='anima'
 
     >
         <img className= 'w-10' src="src/assets/roulette.png" alt="spin" />
